@@ -1,10 +1,5 @@
-import pandas as pd
-import numpy as np
-from matplotlib import pyplot as plt 
-
+#import the database connection
 import pyodbc 
-
-
 
 #establishing the connection
 e_connection = pyodbc.connect('DRIVER=FreeTDS;PORT=1433;'
