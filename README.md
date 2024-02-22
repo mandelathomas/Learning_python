@@ -1,2 +1,2 @@
 # Learning_python
-learning python from beginner to advanced
+learn python from beginner to advanced
