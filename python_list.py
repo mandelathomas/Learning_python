@@ -1,5 +1,10 @@
 #You will learn everything in python list
 
+message ="""
+what is a list?
+A list is a  collection of items arranged in a particular order.
+"""
+
 #Lists
 list1 = ["Cisco", "Juniper", "Avaya", 10, 10.5, -11]  #creating a list
 
