@@ -5,6 +5,9 @@ what is a dictionary?
 A Dictionary is a type of data container in Python which is used to store multiple data in one variable.
 """
 
+#creating an empty dictionary
+dict1 = {} 
+
 #Dictionary with multiple datatypes
 
 arizona_Car_dealership = {
