@@ -23,11 +23,11 @@ last_name = user_fullname.split()[-1]
 user_monthly_Household_income = float (input("Enter Household Income $"))
 
 #check whether user meets the qualified income
-if  user_monthly_Household_income  <= Medicare_individual_qualified_income :
-  print(f"Congratulations {last_name}, you are qualified for Medicare!")
+if  user_monthly_Household_income  <= Medicare_individual_qualified_income  or age > 65:
+  print(f"Congratulations {last_name.capitalize()}, you are qualified for Medicare!")
   
 elif user_monthly_Household_income  > Medicare_individual_qualified_income :
-  print(f"Sorry {last_name}, your monthly household income of {user_monthly_Household_income} is too high!")
+  print(f"Sorry {last_name.capitalize()}, your monthly household income of {user_monthly_Household_income} is too high!")
   
 else:
-  print(f"Sorry {last_name}, You might find cheaper healthcare plan on healthcare.gov!")
+  print(f"Sorry {last_name.capitalize()}, You might find cheaper healthcare plan on healthcare.gov!")
