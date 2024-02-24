@@ -7,9 +7,9 @@ In Python, the range() function generates sequences of numbers within a specifie
 
 """
 
-
+#Assigning a 
 asvas_score = range(10)
-print(asvas_score)
+print(f' These are USA Military Career Scores {asvas_score}")
 
  #check the function type
 type(asvas_score)
