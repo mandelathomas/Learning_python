@@ -1,4 +1,3 @@
-
 """
 Using control flow in python
 In Python, the while loop is a fundamental control flow structure in Python used to
