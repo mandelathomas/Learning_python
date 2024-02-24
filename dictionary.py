@@ -60,3 +60,11 @@ print(new_family)
 #Del : deletes a key-value pair of a dictionary. can be used to delete the dictionary itself.
 del new_family
 
+#--- Project
+my_dict = {1: "Cisco", 2: "HP", 3: "Juniper", 4: "Arista", 5: "Avaya"}
+
+max(my_dict.keys()) 
+sorted(my_dict.values())[0]
+len(my_dict) == 4
+
+
