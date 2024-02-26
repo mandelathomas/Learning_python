@@ -20,3 +20,7 @@ Complete the exercises: Practice actively to solidify your understanding.
 
 Ask questions: Feel free to reach out and ask questions if you get stuck. We're here to support you!
 Together, let's unlock the power of Python and define a new rewarding learning adventure!
+
+Contact: mthomas232@atsllclr.net
+        support@atsmas.com
+whatsapp: +4015480474
