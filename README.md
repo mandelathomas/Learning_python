@@ -1,5 +1,4 @@
-# Learning_python
-learning python from beginner to advanced
+
 Welcome to Your Python Journey on GitHub!
 This repository is your one-stop shop for learning Python, from absolute beginner to seasoned developer. We'll guide you through the exciting world of Python, equipping you with the skills to build anything you can imagine.
 
