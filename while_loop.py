@@ -19,7 +19,7 @@ driver_ssn = input("Enter Full Social Security Number: ")
 while len(driver_ssn) <9 or len(driver_ssn) >9:
   driver_ssn = input("Enter Full Social Security Number: ")
   print("Sorry, your entrance exceeded or is below the maximum ssn")
-  print("Please enter the number correctly!")
+  print("Please enter the nine digits number correctly!")
 
 print("Please answer the next question!!")
 
