@@ -53,3 +53,9 @@ file.close()
 #using the with-as solution, the files gets closed automatically, without needing the close() method
 with open("python.txt", "w") as f: 
     f.write("Hello Python!\n")
+
+#reading the file from the beginning 
+
+file = open("reading.txt", "r")
+file.read()
+file.seek()
