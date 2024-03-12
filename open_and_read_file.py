@@ -29,6 +29,29 @@ for msg in file.readlines():
 
 #using exclusion creation. Exclusion create a new file if it is does not exist
 
-file = open('mytxt.txt', 'x')
+#file = open('mytxt.txt', 'x')
+
+#writing to the file
+
+file = open('mytxts.txt', 'w')
+file.write("you are a programmer, not a developer!! Please learn other languages to be more usable. Thanks")
+file.close()
+
+#write to line
+file = open('mytxts.txt', 'w')
+file.writelines("What is the differences between python and R. ")
+file.close()
 
 
+#write to line
+file = open('mytxts.txt', 'a')
+file.write("I am a man of my words. ")
+file.close()
+
+#writing and reading from the file
+file = open("mytxts.txt", "r")
+file.read()
+
+
+with open('mytxts.txt', 'w') as mf:
+    mf.closed
