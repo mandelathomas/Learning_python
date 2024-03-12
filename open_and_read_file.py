@@ -48,10 +48,8 @@ file = open('mytxts.txt', 'a')
 file.write("I am a man of my words. ")
 file.close()
 
-#writing and reading from the file
-file = open("mytxts.txt", "r")
-file.read()
 
 
-with open('mytxts.txt', 'w') as mf:
-    mf.closed
+#using the with-as solution, the files gets closed automatically, without needing the close() method
+with open("python.txt", "w") as f: 
+    f.write("Hello Python!\n")
