@@ -1,7 +1,5 @@
 
-
-# Commented out IPython magic to ensure Python compatibility.
-#using date and time
+#using date and time. First thing, we have to import the datetime module and assigned dt to it and use the "dt" to perform any function.
 import datetime as dt
 
 #using both time and date
