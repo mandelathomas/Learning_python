@@ -44,11 +44,13 @@ print(atsmas_university.student_name)
 # ---- Assigning parameters to an attributes with classes and objects---
 
 class college:
+      #Attributes (define college properties)
   def __init__(self, name, age, major, gpa):
     self.name = name
     self.age = age
     self.major = major
     self.gpa = gpa
+#Create objects (Instances) from the college class)
 atsmas_college = college('Mandela Thomas', 29, 'healthcare Management', 4.0)
 print(atsmas_college.age)
 
@@ -56,17 +58,18 @@ print(atsmas_college.age)
 #----- using two methods
 
 class techincal:
-  #method one
+#Attributes (define college properties)
   def __init__(self, fname, education, profession, university):
     self.fname = fname
     self.education = education
     self.profession = profession
     self.university = university
 
- #Method two
+ #Methods (define technical functionalities)
   def info(self):
     print(f"My name is {self.fname} and I a {self.education} researcher at the {self.university}")
     print(f"I work as the {self.profession} of ATS Meta Analytics LLC, a USA and Int'l based company")
 
+#Create objects (Instances) from the college class)
 myinfo = techincal("Mandela Thomas", "Doctoral", "Senoir Strategic Consultant", "Walden University")
 myinfo.info()
