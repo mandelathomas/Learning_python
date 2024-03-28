@@ -36,7 +36,10 @@ class university: #object
     self.student_age = 29
     self.student_major = "Data Analytics"
     self.Student_education = "PHD"
+
+# Call object methods
 atsmas_university = university()
+# Access object attributes
 print(atsmas_university.student_name)
 
 
@@ -72,4 +75,5 @@ class techincal:
 
 #Create objects (Instances) from the college class)
 myinfo = techincal("Mandela Thomas", "Doctoral", "Senoir Strategic Consultant", "Walden University")
+# Call object methods
 myinfo.info()
