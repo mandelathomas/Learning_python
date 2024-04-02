@@ -77,3 +77,19 @@ class techincal:
 myinfo = techincal("Mandela Thomas", "Doctoral", "Senoir Strategic Consultant", "Walden University")
 # Call object methods
 myinfo.info()
+
+#Example 4
+
+class patient:
+  def __init__(self, name, birth_place, diagnoses, birth_year):
+    self.name = name
+    self.birth_place = birth_place
+    self.diagnoses = diagnoses
+    self.birth_year = birth_year
+
+  def info(self):
+    print( f"{self.name} is a patient of the Arizona Healthcare")
+    print(f"He is {2024-self.birth_year} and is diagnosed with {self.diagnoses}")
+detail = patient("Peter Collie", "New York", "Heart blood pressure", 1995)
+detail.info()
+
